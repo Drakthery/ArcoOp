@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "NSN",
+      "#B#",
+      "6A6"
+    ],
+    "key": {
+      "B": {"item": "minecraft:bow"},
+      "N": {"item": "advancednetherite:netherite_diamond_ingot"},
+      "#": {"item": "minecraft:echo_shard"},
+      "S": {"item": "minecraft:nether_star"},
+      "A": {"item": "minecraft:enchanted_golden_apple"},
+      "6": {"item": "minecraft:shulker_shell"}
+    },
+    "result": {
+      "item": "minecraft:knowledge_book",
+      "count": 1
+    }
+  }

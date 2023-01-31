@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "dk_folder:recipe_1"
+        }
+      }
+    },
+    "rewards": {
+      "function": "dk_folder:func_recipe_1"
+    }
+  }
+  

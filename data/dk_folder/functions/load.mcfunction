@@ -1,1 +1,1 @@
-tellraw @a [{"text":"Datapack activo arco ","color":"aqua"}]
+tellraw @a [{"text":"Datapack activo bow V1.1","color":"aqua"}]

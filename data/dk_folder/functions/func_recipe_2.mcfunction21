@@ -1,4 +1,0 @@
-recipe take @s dk_folder:recipe_2
-advancement revoke @s only dk_folder:adv_recipe_2
-clear @s knowledge_book
-give @s netherite_sword{CustomModelData:2002,display:{Name:'{"text":"§k### §r §6§lESPAÑITA §4§lCHAOS §6§lSWORD §r §k###"}',Lore:['{"text":"sad"}']},Unbreakable:1b,Enchantments:[{id:"minecraft:smite",lvl:5s},{id:"minecraft:sharpness",lvl:5s},{id:"minecraft:bane_of_arthropods",lvl:5s},{id:"minecraft:looting",lvl:4s},{id:"minecraft:sweeping",lvl:3s},{id:"minecraft:mending",lvl:0s}],AttributeModifiers:[{Slot:mainhand, AttributeName:"generic.attack_damage", Name:"generic.attack_damage", Amount:14, Operation:0, UUID:[I; 1, 1, 1, 1]}]}

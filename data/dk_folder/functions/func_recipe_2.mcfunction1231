@@ -1,0 +1,18 @@
+recipe take @s dk_folder:recipe_2
+advancement revoke @s only dk_folder:adv_recipe_2
+
+
+summon minecraft:slime ~ ~1 ~ {Tags:[slimegiant], DeathLootTable:"minecraft:air", ArmorItems:[{},{},{},{id:"advancednetherite:netherite_diamond_helmet",Count:1,tag:{Unbreakable:1b,Enchantments:[{id:"minecraft:protection",lvl:5s},{id:"minecraft:fire_protection",lvl:5s},{id:"minecraft:blast_protection",lvl:5s},{id:"minecraft:projectile_protection",lvl:5s},{id:"minecraft:respiration",lvl:3s},{id:"minecraft:aqua_affinity",lvl:1s}],display:{Name:'{"text":"§k### §r §6§lLEGENDARY §4§lCHAOS §6§lARMOR §r §k###"}',Lore:['{"text":"King Crown Slime"}']}}}], ArmorDropChances:[0.0f,0.0f,0.0f,0.25f]}
+
+
+summon minecraft:ghast ~ ~1 ~ {Tags:[ghastdemons], DeathLootTable:"minecraft:air", ArmorItems:[{},{},{id:"advancednetherite:netherite_diamond_chestplate",Count:1,tag:{Unbreakable:1b,Enchantments:[{id:"minecraft:protection",lvl:5s},{id:"minecraft:fire_protection",lvl:5s},{id:"minecraft:blast_protection",lvl:5s},{id:"minecraft:projectile_protection",lvl:5s}],display:{Name:'{"text":"§k### §r §6§lLEGENDARY §4§lCHAOS §6§lARMOR §r §k###"}',Lore:['{"text":"Demon Ghast"}']}}},{}], ArmorDropChances:[0.0f,0.0f,0.25f,0.0f]}
+
+
+summon minecraft:phantom ~ ~1 ~ {Tags:[eternal], DeathLootTable:"minecraft:air", ArmorItems:[{},{id:"advancednetherite:netherite_diamond_leggings",Count:1,tag:{Unbreakable:1b,Enchantments:[{id:"minecraft:protection",lvl:5s},{id:"minecraft:fire_protection",lvl:5s},{id:"minecraft:blast_protection",lvl:5s},{id:"minecraft:projectile_protection",lvl:5s},{id:"minecraft:swift_sneak",lvl:3s}],display:{Name:'{"text":"§k### §r §6§lLEGENDARY §4§lCHAOS §6§lARMOR §r §k###"}',Lore:['{"text":"Eternal Phantom"}']}}},{},{}], ArmorDropChances:[0.0f,0.30f,0.0f,0.0f]}
+
+
+summon minecraft:magma_cube ~ ~1 ~ {Tags:[magmagiant], DeathLootTable:"minecraft:air", ArmorItems:[{id:"advancednetherite:netherite_diamond_boots",Count:1,tag:{Unbreakable:1b,Enchantments:[{id:"minecraft:protection",lvl:5s},{id:"minecraft:fire_protection",lvl:5s},{id:"minecraft:blast_protection",lvl:5s},{id:"minecraft:projectile_protection",lvl:5s},{id:"minecraft:feather_falling",lvl:4s},{id:"minecraft:depth_strider",lvl:3s}],display:{Name:'{"text":"§k### §r §6§lLEGENDARY §4§lCHAOS §6§lARMOR §r §k###"}',Lore:['{"text":"King boots Magma"}']}}},{},{},{}], ArmorDropChances:[0.25f,0.0f,0.0f,0.0f]}
+
+
+
+give @s netherite_sword{CustomModelData:2002,display:{Name:'{"text":"§k### §r §6§lESPAÑITA §4§lCHAOS §6§lSWORD §r §k###"}',Lore:['{"text":"sad"}']},Unbreakable:1b,Enchantments:[{id:"minecraft:smite",lvl:5s},{id:"minecraft:sharpness",lvl:5s},{id:"minecraft:bane_of_arthropods",lvl:5s},{id:"minecraft:looting",lvl:4s},{id:"minecraft:sweeping",lvl:3s},{id:"minecraft:mending",lvl:0s}],AttributeModifiers:[{Slot:mainhand, AttributeName:"generic.attack_damage", Name:"generic.attack_damage", Amount:14, Operation:0, UUID:[I; 1, 1, 1, 1]}]}
